@@ -6,12 +6,40 @@
 
 ## Breaking Changes
 
+## Changes since v7.8.2
+
+- [#3001](https://github.com/oauth2-proxy/oauth2-proxy/pull/3001) Allow to set non-default authorization request response mode (@stieler-it)
+
+# V7.8.2
+
+## Release Highlights
+- 🐛 Cookie Expiration bug has been squashed
+- 🔵 Golang version upgrade to v1.23.7
+- 🕵️‍♀️ Vulnerabilities have been addressed
+  - CVE-2025-30204
+  - CVE-2025-27144
+  - CVE-2024-45336
+  - CVE-2025-22866
+  - CVE-2025-22870
+  - CVE-2024-45341
+  - CVE-2025-29923
+  - CVE-2025-22866
+  - CVE-2024-34156
+
+## Important Notes
+
+## Breaking Changes
+
 ## Changes since v7.8.1
 
 - [#2841](https://github.com/oauth2-proxy/oauth2-proxy/pull/2841) feat: add allowed_* constraint option to proxy endpoint query string (@jacobalberty)
 - [#2927](https://github.com/oauth2-proxy/oauth2-proxy/pull/2927) chore(deps/build): bump golang to 1.23 and use go.mod as single point of truth for all build files (@tuunit)
 - [#2697](https://github.com/oauth2-proxy/oauth2-proxy/pull/2697) Use `Max-Age` instead of `Expires` for cookie expiration (@matpen-wi)
 - [#2969](https://github.com/oauth2-proxy/oauth2-proxy/pull/2969) Update golang.org/x/oauth2 to v0.27.0 to address CVE-2025-22868 (@dsymonds)
+- [#2977](https://github.com/oauth2-proxy/oauth2-proxy/pull/2977) Update golang.org/x/net to v0.36.0 to address CVE-2025-22870 (@dsymonds)
+- [#2982](https://github.com/oauth2-proxy/oauth2-proxy/pull/2982) chore(deps): remove go:generate tool from go.mod (@dolmen)
+- [#3011](https://github.com/oauth2-proxy/oauth2-proxy/pull/3011) chore(deps): update golang dependencies and pin to latest golang v1.23.x release (@tuunit)
+- [#2967](https://github.com/oauth2-proxy/oauth2-proxy/pull/2967) Update HashNonce to use crypto/sha256 (@egibs)
 
 # V7.8.1
 
